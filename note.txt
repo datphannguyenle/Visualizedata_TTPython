@@ -1,0 +1,37 @@
+//Đây là thư viện
+import sys
+import platform
+from PySide2 import QtCore, QtGui, QtWidgets
+from PySide2.QtCore import (QCoreApplication, QPropertyAnimation, QDate, QDateTime, QMetaObject, QObject, QPoint, QRect, QSize, QTime, QUrl, Qt, QEvent)
+from PySide2.QtGui import (QBrush, QColor, QConicalGradient, QCursor, QFont, QFontDatabase, QIcon, QKeySequence, QLinearGradient, QPalette, QPainter, QPixmap, QRadialGradient)
+from PySide2.QtWidgets import *
+
+//Them 2 phần này sau cùng
+class MainWindow(QMainWindow):
+    def __init__(self):
+        QMainWindow.__init__(self)
+        self.ui = Ui_MainWindow()
+        self.ui.setupUi(self)
+        self.show()
+    
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    window = MainWindow()
+    sys.exit(app.exec_())
+
+//đổi file ảnh
+pyside2-rcc images.qrc -o rc_images.py
+
+//Đây là pip cài pyside2
+pip install PySide2
+
+//
+#Thiết lập chức năng cho nút exit
+        self.exit_button.clicked.connect(QApplication.instance().quit)
+//cách lấy đường dẫn
+        diachi = QFileDialog.getOpenFileNames()
+        chuanhoa = str(diachi)[:-20]
+        chuanhoa = chuanhoa[3:] 
+
+//
+http://laptrinhtanbinh.com/course/1/Lap-trinh-voi-ngon-ngu-C/45/3.8.-Diem-danh-nhung-widget-thong-dung
