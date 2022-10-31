@@ -9,6 +9,9 @@ from rc_images import *
 # -*- coding: utf-8 -*-
 
 ##############################################################################
+# -*- coding: utf-8 -*-
+
+################################################################################
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -208,9 +211,7 @@ class Ui_MainWindow(object):
 
         self.lineEdit = QLineEdit(self.frame_6)
         self.lineEdit.setObjectName(u"lineEdit")
-        font1 = QFont()
-        font1.setPointSize(12)
-        self.lineEdit.setFont(font1)
+        self.lineEdit.setFont(font)
         self.lineEdit.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
 "border-radius:5px;")
 
