@@ -1,3 +1,10 @@
+Thêm name cho biểu đồ qt và python
+Set kiểu chữ mặc định
+thêm biểu đồ 4 cho mod 1
+
+
+
+
 //Đây là thư viện
 import sys
 import platform

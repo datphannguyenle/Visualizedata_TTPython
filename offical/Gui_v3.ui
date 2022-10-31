@@ -157,19 +157,9 @@ background-color: rgb(255, 255, 255);</string>
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
             </property>
-            <layout class="QVBoxLayout" name="verticalLayout_4" stretch="5,0">
+            <layout class="QVBoxLayout" name="verticalLayout_4" stretch="5">
              <item>
               <layout class="QVBoxLayout" name="grafica_uno"/>
-             </item>
-             <item>
-              <widget class="QLabel" name="name_chart_1">
-               <property name="styleSheet">
-                <string notr="true">background: none;</string>
-               </property>
-               <property name="text">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Tên đồ thị 1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-               </property>
-              </widget>
              </item>
             </layout>
            </widget>
@@ -186,19 +176,9 @@ background-color: rgb(255, 255, 255);</string>
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
             </property>
-            <layout class="QVBoxLayout" name="verticalLayout_5" stretch="5,0">
+            <layout class="QVBoxLayout" name="verticalLayout_5" stretch="5">
              <item>
               <layout class="QVBoxLayout" name="grafica_dos"/>
-             </item>
-             <item>
-              <widget class="QLabel" name="name_chart_2">
-               <property name="styleSheet">
-                <string notr="true">background: none;</string>
-               </property>
-               <property name="text">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Tên đồ thị 2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-               </property>
-              </widget>
              </item>
             </layout>
            </widget>
@@ -215,19 +195,9 @@ background-color: rgb(255, 255, 255);</string>
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
             </property>
-            <layout class="QVBoxLayout" name="verticalLayout_7" stretch="5,0">
+            <layout class="QVBoxLayout" name="verticalLayout_7" stretch="5">
              <item>
               <layout class="QVBoxLayout" name="grafica_tres"/>
-             </item>
-             <item>
-              <widget class="QLabel" name="name_chart_3">
-               <property name="styleSheet">
-                <string notr="true">background: none;</string>
-               </property>
-               <property name="text">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Tên đồ thị 3&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-               </property>
-              </widget>
              </item>
             </layout>
            </widget>
@@ -244,19 +214,9 @@ background-color: rgb(255, 255, 255);</string>
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
             </property>
-            <layout class="QVBoxLayout" name="verticalLayout_8" stretch="5,0">
+            <layout class="QVBoxLayout" name="verticalLayout_8" stretch="5">
              <item>
               <layout class="QVBoxLayout" name="grafica_cuatro"/>
-             </item>
-             <item>
-              <widget class="QLabel" name="name_chart_4">
-               <property name="styleSheet">
-                <string notr="true">background: none;</string>
-               </property>
-               <property name="text">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Tên đồ thị 4&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-               </property>
-              </widget>
              </item>
             </layout>
            </widget>
@@ -438,7 +398,7 @@ QPushButton:pressed{
      <x>0</x>
      <y>0</y>
      <width>936</width>
-     <height>22</height>
+     <height>26</height>
     </rect>
    </property>
   </widget>

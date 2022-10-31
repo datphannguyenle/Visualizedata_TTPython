@@ -10,7 +10,6 @@ from rc_images import *
 
 ##############################################################################
 
-
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
@@ -112,12 +111,6 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_4.addLayout(self.grafica_uno)
 
-        self.name_chart_1 = QLabel(self.frame_1)
-        self.name_chart_1.setObjectName(u"name_chart_1")
-        self.name_chart_1.setStyleSheet(u"background: none;")
-
-        self.verticalLayout_4.addWidget(self.name_chart_1)
-
         self.verticalLayout_4.setStretch(0, 5)
 
         self.gridLayout.addWidget(self.frame_1, 0, 0, 1, 1)
@@ -134,12 +127,6 @@ class Ui_MainWindow(object):
         self.grafica_dos.setObjectName(u"grafica_dos")
 
         self.verticalLayout_5.addLayout(self.grafica_dos)
-
-        self.name_chart_2 = QLabel(self.frame_2)
-        self.name_chart_2.setObjectName(u"name_chart_2")
-        self.name_chart_2.setStyleSheet(u"background: none;")
-
-        self.verticalLayout_5.addWidget(self.name_chart_2)
 
         self.verticalLayout_5.setStretch(0, 5)
 
@@ -158,12 +145,6 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_7.addLayout(self.grafica_tres)
 
-        self.name_chart_3 = QLabel(self.frame_3)
-        self.name_chart_3.setObjectName(u"name_chart_3")
-        self.name_chart_3.setStyleSheet(u"background: none;")
-
-        self.verticalLayout_7.addWidget(self.name_chart_3)
-
         self.verticalLayout_7.setStretch(0, 5)
 
         self.gridLayout.addWidget(self.frame_3, 1, 0, 1, 1)
@@ -180,12 +161,6 @@ class Ui_MainWindow(object):
         self.grafica_cuatro.setObjectName(u"grafica_cuatro")
 
         self.verticalLayout_8.addLayout(self.grafica_cuatro)
-
-        self.name_chart_4 = QLabel(self.frame_4)
-        self.name_chart_4.setObjectName(u"name_chart_4")
-        self.name_chart_4.setStyleSheet(u"background: none;")
-
-        self.verticalLayout_8.addWidget(self.name_chart_4)
 
         self.verticalLayout_8.setStretch(0, 5)
 
@@ -331,10 +306,6 @@ class Ui_MainWindow(object):
 #endif // QT_CONFIG(whatsthis)
         self.tendetai.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p align=\"center\"><span style=\" font-size:26pt; font-style:normal;\">Visualize Data Software</span></p></body></html>", None))
         self.tacgia.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p align=\"center\"><span style=\" color:#ffffff;\">BY: LE PHAN NGUYEN DAT 20139037 - NGUYEN HOAI TAM 20139012</span></p></body></html>", None))
-        self.name_chart_1.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p align=\"center\"><span style=\" color:#000000;\">T\u00ean \u0111\u1ed3 th\u1ecb 1</span></p></body></html>", None))
-        self.name_chart_2.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p align=\"center\"><span style=\" color:#000000;\">T\u00ean \u0111\u1ed3 th\u1ecb 2</span></p></body></html>", None))
-        self.name_chart_3.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p align=\"center\"><span style=\" color:#000000;\">T\u00ean \u0111\u1ed3 th\u1ecb 3</span></p></body></html>", None))
-        self.name_chart_4.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p align=\"center\"><span style=\" color:#000000;\">T\u00ean \u0111\u1ed3 th\u1ecb 4</span></p></body></html>", None))
         self.load_button.setText(QCoreApplication.translate("MainWindow", u"Open file", None))
         self.lineEdit.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Please input city name", None))
         self.start_button.setText(QCoreApplication.translate("MainWindow", u"Start", None))
