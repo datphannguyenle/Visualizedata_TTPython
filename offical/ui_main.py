@@ -6,18 +6,10 @@ from PySide2.QtWidgets import *
 
 from rc_images import *
 # -*- coding: utf-8 -*-
-
-################################################################################
-
 # -*- coding: utf-8 -*-
 
-################################################################################
-## Form generated from reading UI file 'Gui_v3acXPKO.ui'
-##
-## Created by: Qt User Interface Compiler version 5.15.3
-##
-## WARNING! All changes made in this file will be lost when recompiling UI file!
-################################################################################
+##############################################################################
+
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -26,11 +18,13 @@ class Ui_MainWindow(object):
         MainWindow.resize(936, 818)
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
-        self.centralwidget.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(42, 44, 111, 255), stop:0.521368 rgba(28, 29, 73, 255));")
+        self.centralwidget.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(42, 44, 111, 255), stop:0.521368 rgba(28, 29, 73, 255));\n"
+"border-radius: 0px;")
         self.verticalLayout = QVBoxLayout(self.centralwidget)
         self.verticalLayout.setObjectName(u"verticalLayout")
         self.frame = QFrame(self.centralwidget)
         self.frame.setObjectName(u"frame")
+        self.frame.setStyleSheet(u"")
         self.frame.setFrameShape(QFrame.StyledPanel)
         self.frame.setFrameShadow(QFrame.Raised)
         self.verticalLayout_6 = QVBoxLayout(self.frame)
@@ -310,7 +304,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_6.addWidget(self.button)
 
-        self.verticalLayout_6.setStretch(1, 8)
+        self.verticalLayout_6.setStretch(1, 9)
         self.verticalLayout_6.setStretch(2, 1)
 
         self.verticalLayout.addWidget(self.frame)
@@ -342,6 +336,7 @@ class Ui_MainWindow(object):
         self.name_chart_3.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p align=\"center\"><span style=\" color:#000000;\">T\u00ean \u0111\u1ed3 th\u1ecb 3</span></p></body></html>", None))
         self.name_chart_4.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p align=\"center\"><span style=\" color:#000000;\">T\u00ean \u0111\u1ed3 th\u1ecb 4</span></p></body></html>", None))
         self.load_button.setText(QCoreApplication.translate("MainWindow", u"Open file", None))
+        self.lineEdit.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Please input city name", None))
         self.start_button.setText(QCoreApplication.translate("MainWindow", u"Start", None))
         self.exit_button.setText(QCoreApplication.translate("MainWindow", u"Exit", None))
     # retranslateUi
