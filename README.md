@@ -11,7 +11,7 @@
 * datphannguyenle@gmail.com
 
 # REQUERIMENTS:
-* You have to install pip if you are using Linux or a similar one to run this project
+* You have to install pip if you use Linux or a similar one to run this project
 * Dowload new version Python -> https://www.python.org
 * pip install numpy
 * pip install pandas
@@ -26,4 +26,4 @@
 # GUIDE:
 1. Click _Open file_ -> Choose file csv download from https://www.visualcrossing.com -> Click _Start_ to run
 2. Input a city name (English) -> Click _Start_ to run
-3. CLick _Exit_ to close
+3. Click _Exit_ to close
