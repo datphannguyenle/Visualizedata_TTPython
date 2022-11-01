@@ -6,7 +6,6 @@
 * Project created using Python, Qt Designer and PySide2
 * I hope it helps everyone who is starting now in the Python world
 * This project works very well with Windows, however on Linux and macOS there are some font size problems and does not work very well
-![Uploading Picture1.png…]()
 
 # CONTACT INFORMATION:
 * datphannguyenle@gmail.com
