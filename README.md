@@ -1,11 +1,15 @@
 # Visualizedata_TTPython
 * Ho Chi Minh City University of Technology and Education
 * Practice programming with python
-* By Le Phan Nguyen Dat - Nguyen Hoai Tam
 
+# DESCRIPTION:
+Visualize weather data using csv files and weather api
 * Project created using Python, Qt Designer and PySide2
 * I hope it helps everyone who is starting now in the Python world
-* This project works very well with Windows, however on Linux and macOS there are some font size problems and does not work very well
+
+# AUTHORS:
+* Le Phan Nguyen Dat
+* Nguyen Hoai Tam
 
 # CONTACT INFORMATION:
 * datphannguyenle@gmail.com
@@ -23,7 +27,7 @@
 # RUN FILE:
 * main.py
 
-# GUIDE:
+# USAGE:
 1. Click _Open file_ -> Choose file csv download from https://www.visualcrossing.com -> Click _Start_ to run
 2. Input a city name (English) -> Click _Start_ to run
 3. Click _Exit_ to close
