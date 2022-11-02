@@ -6,8 +6,6 @@
 * Project created using Python, Qt Designer and PySide2
 * I hope it helps everyone who is starting now in the Python world
 * This project works very well with Windows, however on Linux and macOS there are some font size problems and does not work very well
-* ![image](https://user-images.githubusercontent.com/82134525/199151476-457d6088-7dee-4aaf-8a94-4566b4f79783.png)
-* ![image](https://user-images.githubusercontent.com/82134525/199151486-87ec6264-9e36-4cda-af4a-b1a74b45acb2.png)
 
 # CONTACT INFORMATION:
 * datphannguyenle@gmail.com
