@@ -3,13 +3,8 @@ from PySide2.QtGui import *
 from PySide2.QtWidgets import *
 
 from rc_images import *
-# -*- coding: utf-8 -*-
-# -*- coding: utf-8 -*-
 
 ##############################################################################
-# -*- coding: utf-8 -*-
-
-################################################################################
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -47,7 +42,6 @@ class Ui_MainWindow(object):
         self.logo_img = QLabel(self.logo)
         self.logo_img.setObjectName(u"logo_img")
         self.logo_img.setStyleSheet(u"background-color: none;\n"
-"\n"
 "image: url(:/images/images/logos/ute_logo.png);")
 
         self.verticalLayout_3.addWidget(self.logo_img)
@@ -107,10 +101,10 @@ class Ui_MainWindow(object):
         self.frame_1.setFrameShadow(QFrame.Raised)
         self.verticalLayout_4 = QVBoxLayout(self.frame_1)
         self.verticalLayout_4.setObjectName(u"verticalLayout_4")
-        self.grafica_uno = QVBoxLayout()
-        self.grafica_uno.setObjectName(u"grafica_uno")
+        self.line_chart = QVBoxLayout()
+        self.line_chart.setObjectName(u"line_chart")
 
-        self.verticalLayout_4.addLayout(self.grafica_uno)
+        self.verticalLayout_4.addLayout(self.line_chart)
 
         self.verticalLayout_4.setStretch(0, 5)
 
@@ -124,10 +118,10 @@ class Ui_MainWindow(object):
         self.frame_2.setFrameShadow(QFrame.Raised)
         self.verticalLayout_5 = QVBoxLayout(self.frame_2)
         self.verticalLayout_5.setObjectName(u"verticalLayout_5")
-        self.grafica_dos = QVBoxLayout()
-        self.grafica_dos.setObjectName(u"grafica_dos")
+        self.scatter_chart = QVBoxLayout()
+        self.scatter_chart.setObjectName(u"scatter_chart")
 
-        self.verticalLayout_5.addLayout(self.grafica_dos)
+        self.verticalLayout_5.addLayout(self.scatter_chart)
 
         self.verticalLayout_5.setStretch(0, 5)
 
@@ -141,10 +135,10 @@ class Ui_MainWindow(object):
         self.frame_3.setFrameShadow(QFrame.Raised)
         self.verticalLayout_7 = QVBoxLayout(self.frame_3)
         self.verticalLayout_7.setObjectName(u"verticalLayout_7")
-        self.grafica_tres = QVBoxLayout()
-        self.grafica_tres.setObjectName(u"grafica_tres")
+        self.bar_chart = QVBoxLayout()
+        self.bar_chart.setObjectName(u"bar_chart")
 
-        self.verticalLayout_7.addLayout(self.grafica_tres)
+        self.verticalLayout_7.addLayout(self.bar_chart)
 
         self.verticalLayout_7.setStretch(0, 5)
 
@@ -158,10 +152,10 @@ class Ui_MainWindow(object):
         self.frame_4.setFrameShadow(QFrame.Raised)
         self.verticalLayout_8 = QVBoxLayout(self.frame_4)
         self.verticalLayout_8.setObjectName(u"verticalLayout_8")
-        self.grafica_cuatro = QVBoxLayout()
-        self.grafica_cuatro.setObjectName(u"grafica_cuatro")
+        self.histogram_chart = QVBoxLayout()
+        self.histogram_chart.setObjectName(u"histogram_chart")
 
-        self.verticalLayout_8.addLayout(self.grafica_cuatro)
+        self.verticalLayout_8.addLayout(self.histogram_chart)
 
         self.verticalLayout_8.setStretch(0, 5)
 
@@ -247,9 +241,33 @@ class Ui_MainWindow(object):
         self.frame_5.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_4 = QHBoxLayout(self.frame_5)
         self.horizontalLayout_4.setObjectName(u"horizontalLayout_4")
-        self.horizontalSpacer = QSpacerItem(328, 20, QSizePolicy.Expanding, QSizePolicy.Minimum)
+        self.notice_label = QLabel(self.frame_5)
+        self.notice_label.setObjectName(u"notice_label")
+        font1 = QFont()
+        font1.setPointSize(10)
+        font1.setItalic(True)
+        self.notice_label.setFont(font1)
 
-        self.horizontalLayout_4.addItem(self.horizontalSpacer)
+        self.horizontalLayout_4.addWidget(self.notice_label)
+
+        self.help_button = QPushButton(self.frame_5)
+        self.help_button.setObjectName(u"help_button")
+        self.help_button.setFont(font)
+        self.help_button.setCursor(QCursor(Qt.PointingHandCursor))
+        self.help_button.setStyleSheet(u"QPushButton {\n"
+"	background-color: rgb(255, 255, 255);\n"
+"	border-radius:5px;\n"
+"}\n"
+"QPushButton:hover {\n"
+"	background-color: rgb(154, 153, 150);\n"
+"}\n"
+"QPushButton:pressed{\n"
+"	background-color: rgb(0, 0, 0);\n"
+"	color:rgb(255, 255, 255);\n"
+"}\n"
+"	")
+
+        self.horizontalLayout_4.addWidget(self.help_button)
 
         self.exit_button = QPushButton(self.frame_5)
         self.exit_button.setObjectName(u"exit_button")
@@ -270,8 +288,9 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_4.addWidget(self.exit_button)
 
-        self.horizontalLayout_4.setStretch(0, 4)
+        self.horizontalLayout_4.setStretch(0, 3)
         self.horizontalLayout_4.setStretch(1, 1)
+        self.horizontalLayout_4.setStretch(2, 1)
 
         self.horizontalLayout.addWidget(self.frame_5)
 
@@ -308,6 +327,7 @@ class Ui_MainWindow(object):
         self.load_button.setText(QCoreApplication.translate("MainWindow", u"Open file", None))
         self.lineEdit.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Please input city name", None))
         self.start_button.setText(QCoreApplication.translate("MainWindow", u"Start", None))
+        self.notice_label.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" color:#ff0000;\">TextLabel</span></p></body></html>", None))
+        self.help_button.setText(QCoreApplication.translate("MainWindow", u"Help", None))
         self.exit_button.setText(QCoreApplication.translate("MainWindow", u"Exit", None))
     # retranslateUi
-
