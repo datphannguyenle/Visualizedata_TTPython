@@ -7,6 +7,11 @@ Visualize weather data using csv files and weather api
 * Project created using Python, Qt Designer and PySide2
 * I hope it helps everyone who is starting now in the Python world
 
+# AUTHORS:
+* Le Phan Nguyen Dat
+* Nguyen Hoai Tam
+>>>>>>> main
+
 # CONTACT INFORMATION:
 * datphannguyenle@gmail.com
 
