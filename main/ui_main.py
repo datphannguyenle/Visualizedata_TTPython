@@ -101,10 +101,10 @@ class Ui_MainWindow(object):
         self.frame_1.setFrameShadow(QFrame.Raised)
         self.verticalLayout_4 = QVBoxLayout(self.frame_1)
         self.verticalLayout_4.setObjectName(u"verticalLayout_4")
-        self.grafica_uno = QVBoxLayout()
-        self.grafica_uno.setObjectName(u"grafica_uno")
+        self.line_chart = QVBoxLayout()
+        self.line_chart.setObjectName(u"line_chart")
 
-        self.verticalLayout_4.addLayout(self.grafica_uno)
+        self.verticalLayout_4.addLayout(self.line_chart)
 
         self.verticalLayout_4.setStretch(0, 5)
 
@@ -118,10 +118,10 @@ class Ui_MainWindow(object):
         self.frame_2.setFrameShadow(QFrame.Raised)
         self.verticalLayout_5 = QVBoxLayout(self.frame_2)
         self.verticalLayout_5.setObjectName(u"verticalLayout_5")
-        self.grafica_dos = QVBoxLayout()
-        self.grafica_dos.setObjectName(u"grafica_dos")
+        self.scatter_chart = QVBoxLayout()
+        self.scatter_chart.setObjectName(u"scatter_chart")
 
-        self.verticalLayout_5.addLayout(self.grafica_dos)
+        self.verticalLayout_5.addLayout(self.scatter_chart)
 
         self.verticalLayout_5.setStretch(0, 5)
 
@@ -135,10 +135,10 @@ class Ui_MainWindow(object):
         self.frame_3.setFrameShadow(QFrame.Raised)
         self.verticalLayout_7 = QVBoxLayout(self.frame_3)
         self.verticalLayout_7.setObjectName(u"verticalLayout_7")
-        self.grafica_tres = QVBoxLayout()
-        self.grafica_tres.setObjectName(u"grafica_tres")
+        self.bar_chart = QVBoxLayout()
+        self.bar_chart.setObjectName(u"bar_chart")
 
-        self.verticalLayout_7.addLayout(self.grafica_tres)
+        self.verticalLayout_7.addLayout(self.bar_chart)
 
         self.verticalLayout_7.setStretch(0, 5)
 
@@ -152,10 +152,10 @@ class Ui_MainWindow(object):
         self.frame_4.setFrameShadow(QFrame.Raised)
         self.verticalLayout_8 = QVBoxLayout(self.frame_4)
         self.verticalLayout_8.setObjectName(u"verticalLayout_8")
-        self.grafica_cuatro = QVBoxLayout()
-        self.grafica_cuatro.setObjectName(u"grafica_cuatro")
+        self.histogram_chart = QVBoxLayout()
+        self.histogram_chart.setObjectName(u"histogram_chart")
 
-        self.verticalLayout_8.addLayout(self.grafica_cuatro)
+        self.verticalLayout_8.addLayout(self.histogram_chart)
 
         self.verticalLayout_8.setStretch(0, 5)
 

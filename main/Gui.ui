@@ -158,7 +158,7 @@ background-color: rgb(255, 255, 255);</string>
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_4" stretch="5">
              <item>
-              <layout class="QVBoxLayout" name="grafica_uno"/>
+              <layout class="QVBoxLayout" name="line_chart"/>
              </item>
             </layout>
            </widget>
@@ -177,7 +177,7 @@ background-color: rgb(255, 255, 255);</string>
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_5" stretch="5">
              <item>
-              <layout class="QVBoxLayout" name="grafica_dos"/>
+              <layout class="QVBoxLayout" name="scatter_chart"/>
              </item>
             </layout>
            </widget>
@@ -196,7 +196,7 @@ background-color: rgb(255, 255, 255);</string>
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_7" stretch="5">
              <item>
-              <layout class="QVBoxLayout" name="grafica_tres"/>
+              <layout class="QVBoxLayout" name="bar_chart"/>
              </item>
             </layout>
            </widget>
@@ -215,7 +215,7 @@ background-color: rgb(255, 255, 255);</string>
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_8" stretch="5">
              <item>
-              <layout class="QVBoxLayout" name="grafica_cuatro"/>
+              <layout class="QVBoxLayout" name="histogram_chart"/>
              </item>
             </layout>
            </widget>
@@ -426,7 +426,7 @@ QPushButton:pressed{
      <x>0</x>
      <y>0</y>
      <width>936</width>
-     <height>22</height>
+     <height>26</height>
     </rect>
    </property>
   </widget>

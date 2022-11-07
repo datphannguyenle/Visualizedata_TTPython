@@ -75,16 +75,16 @@ class MiApp(QMainWindow):
         self.grafica1 = Canvas_grafica2()
         self.grafica2 = Canvas_grafica3()
         self.grafica3 = Canvas_grafica4()
-        self.ui.grafica_uno.addWidget(self.grafica)
-        self.ui.grafica_dos.addWidget(self.grafica1)
-        self.ui.grafica_tres.addWidget(self.grafica2)
-        self.ui.grafica_cuatro.addWidget(self.grafica3)
+        self.ui.line_chart.addWidget(self.grafica)
+        self.ui.scatter_chart.addWidget(self.grafica1)
+        self.ui.bar_chart.addWidget(self.grafica2)
+        self.ui.histogram_chart.addWidget(self.grafica3)
     
     def remove(self):
-        self.ui.grafica_uno.removeWidget(self.grafica)
-        self.ui.grafica_dos.removeWidget(self.grafica1)
-        self.ui.grafica_tres.removeWidget(self.grafica2)
-        self.ui.grafica_cuatro.removeWidget(self.grafica3)          
+        self.ui.line_chart.removeWidget(self.grafica)
+        self.ui.scatter_chart.removeWidget(self.grafica1)
+        self.ui.bar_chart.removeWidget(self.grafica2)
+        self.ui.histogram_chart.removeWidget(self.grafica3)          
 
     #Thiết lập hoạt động cho load_button
     def bt_load(self):
