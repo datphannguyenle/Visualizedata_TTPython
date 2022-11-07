@@ -10,7 +10,6 @@ Visualize weather data using csv files and weather api
 # AUTHORS:
 * Le Phan Nguyen Dat
 * Nguyen Hoai Tam
->>>>>>> main
 
 # CONTACT INFORMATION:
 * datphannguyenle@gmail.com
