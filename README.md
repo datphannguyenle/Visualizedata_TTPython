@@ -2,19 +2,16 @@
 * Ho Chi Minh City University of Technology and Education
 * Practice programming with python
 
-# DESCRIPTION:
+# Description:
 Visualize weather data using csv files and weather api
 * Project created using Python, Qt Designer and PySide2
 * I hope it helps everyone who is starting now in the Python world
 
-# AUTHORS:
+# Authors:
 * Le Phan Nguyen Dat
 * Nguyen Hoai Tam
 
-# CONTACT INFORMATION:
-* datphannguyenle@gmail.com
-
-# REQUERIMENTS:
+# Requeriments:
 * You have to install pip if you use Linux or a similar one to run this project
 * Dowload new version Python -> https://www.python.org
 * pip install numpy
@@ -24,10 +21,10 @@ Visualize weather data using csv files and weather api
 * pip install requests
 * pip install matplotlib
 
-# RUN FILE:
+# Run file:
 * main.py
 
-# USAGE:
+# Usage:
 1. Click _Open file_ -> Choose file csv download from https://www.visualcrossing.com -> Click _Start_ to run
 2. Input a city name (English) -> Click _Start_ to run
 3. Click _Exit_ to close
