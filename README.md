@@ -32,4 +32,4 @@ Visualize weather data using csv files and weather api
 # Demo
 Youtube: https://www.youtube.com/watch?v=obYSqi9OuqI&t=217s
 
-![Logo](https://github.com/datphannguyenle/Visualizedata_TTPython/blob/main/No_1.png)
+![Logo](https://github.com/datphannguyenle/Visualizedata_TTPython/blob/main/v1.png)
