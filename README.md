@@ -1,4 +1,4 @@
-# Visualizedata_TTPython
+## Visualizedata_TTPython
 * Ho Chi Minh City University of Technology and Education
 * Practice programming with python
 
@@ -31,3 +31,6 @@ Visualize weather data using csv files and weather api
 1. Click _Open file_ -> Choose file csv download from https://www.visualcrossing.com -> Click _Start_ to run
 2. Input a city name (English) -> Click _Start_ to run
 3. Click _Exit_ to close
+
+# Demo
+Youtube: https://www.youtube.com/watch?v=obYSqi9OuqI&t=217s
